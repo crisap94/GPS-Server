@@ -100,8 +100,8 @@ void handle_OnConnect() {
       JSON_OBJECT_SIZE(2) + JSON_OBJECT_SIZE(4) + JSON_OBJECT_SIZE(6);
   DynamicJsonDocument doc(capacity);
 
-  doc["zoneId"] = "5ac0129e3e194204e0afef6d";
-  doc["topic"] = "A2";
+  doc["zoneId"] = "5ac012583e194204e0afef6b";
+  doc["topic"] = "A1";
 
   JsonObject gps = doc.createNestedObject("gps");
   gps["lat"] = lat;
